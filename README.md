@@ -125,13 +125,13 @@ You can test all the CRUD operations directly from Swagger UI.
 **POST** `/students`
 
 Request Body:
-
+'''
 json
 {
     "name": "Asmita Pandeya",
     "email": "asmita@example.com"
 }
-
+'''
 
 ### Update Student
 
