@@ -1,4 +1,10 @@
-venv/
+# Python cache files
 __pycache__/
-*.pyc
-students.db
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+
+# SQLite database
+*students.db
