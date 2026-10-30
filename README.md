@@ -57,7 +57,7 @@ student-crud/
 ### Step 1: Clone the Repository
 
 
-git clone <your-repository-url>
+git clone https://github.com/Asmita456/student-crud-api.git
 
 
 ### Step 2: Navigate to the Project Folder
