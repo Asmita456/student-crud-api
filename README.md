@@ -118,32 +118,51 @@ You can test all the CRUD operations directly from Swagger UI.
 | PATCH | `/students/{student_id}` | Update student details |
 | DELETE | `/students/{student_id}` | Delete a student |
 
+
 ## 9. Sample Requests
 
-### Create Student
+### 1. Create Student
 
 **POST** `/students`
 
 Request Body:
-'''
-json
-{
-    "name": "Asmita Pandeya",
-    "email": "asmita@example.com"
-}
-'''
 
-### Update Student
+```json
+{
+  "name": "Asmita Pandeya",
+  "email": "asmita@example.com"
+}
+```
+
+### 2. Get All Students
+
+**GET** `/students`
+
+No request body is required.
+
+### 3. Get Student by ID
+
+**GET** `/students/1`
+
+No request body is required.
+
+### 4. Update Student
 
 **PATCH** `/students/1`
 
 Request Body:
 
-json
+```json
 {
-    "name": "Asmita Updated"
+  "name": "Asmita Updated"
 }
+```
 
+### 5. Delete Student
+
+**DELETE** `/students/1`
+
+No request body is required.
 
 ## 10. Database
 
